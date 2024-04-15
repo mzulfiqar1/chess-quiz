@@ -1,0 +1,40 @@
+html {
+  background: url("img/chess-board.png") no-repeat center fixed;
+  background-size: cover;
+}
+
+body {
+  background-color: rgb(255, 255, 255, 0.8);
+  border: 2px solid black;
+  width: 700px;
+  margin: 50px auto;
+  padding: 25px 75px;
+  border-radius: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+}
+
+button {
+  background-color: rgb(113, 111, 114);
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(146, 146, 147);
+}
+
+.weight {
+  font-weight: bold;
+}
+
+.font {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}

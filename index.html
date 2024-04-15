@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chess Quiz</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <h1>Chess Quiz</h1>
+    <hr />
+
+    <h2>Question 1</h2>
+    <p>What is the most <strong>important</strong> piece in chess?</p>
+    <p>
+      Answer: <input id="q1-in" type="text" />
+      <span id="answer1" class="font"></span>
+    </p>
+    <hr />
+
+    <h2>Question 2</h2>
+    <p>What is the most <strong>powerful</strong> piece in chess?</p>
+    <p>
+      Answer: <input id="q2-in" type="text" />
+      <span id="answer2" class="font"></span>
+    </p>
+    <hr />
+
+    <h2>Question 3</h2>
+    <img src="img/chess-set.jpg" alt="Chess Set" />
+    <p>How many squares are on a chessboard?</p>
+    <p>
+      Answer: <input id="q3-in" type="number" />
+      <span id="answer3" class="font"></span>
+    </p>
+    <hr />
+
+    <h2>Question 4</h2>
+    <img src="img/chess-piece.jpeg" alt="Chess Piece" />
+    <p>
+      A pawn may be <em>promoted</em> when it reaches the other side of the
+      board. Name a piece that a pawn may be promoted to:
+    </p>
+    <p>
+      Answer: <input id="q4-in" type="text" />
+      <span id="answer4" class="font"></span>
+    </p>
+    <hr />
+
+    <button id="mark-btn">Mark Quiz</button>
+
+    <p class="weight">Your Score: <span id="evaluation">---/4 (---%)</span></p>
+    <p id="response" class="weight"></p>
+    <hr />
+
+    <p>
+      Visit
+      <a href="https://www.chess.com/" target="_blank">chess.com</a>
+      to study and learn more about chess!
+    </p>
+  </body>
+</html>
